@@ -4,7 +4,8 @@ import Reveal from '../components/Reveal'
 import Eyebrow from '../components/Eyebrow'
 import Button from '../components/Button'
 import Counter from '../components/Counter'
-import HeroSlider from '../components/HeroSlider'
+import Hero from '../components/Hero'
+import PromoSlider from '../components/PromoSlider'
 import TestimonialSlider from '../components/TestimonialSlider'
 import Flourish from '../components/Flourish'
 import { categories } from '../data/services'
@@ -60,7 +61,10 @@ const Home = () => {
   return (
     <div>
       {/* HERO */}
-      <HeroSlider />
+      <Hero />
+
+      {/* PROMOTIONS */}
+      <PromoSlider />
 
       {/* MARQUEE */}
       <div className="relative bg-brown overflow-hidden py-5 border-y border-gold/30">
